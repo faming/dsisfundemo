@@ -19,27 +19,12 @@ BulmaCSS is used for the frontend.
 4. numpy
 
 ## Instructions
-
-To run the app locally, enter these commands in your terminal: 
-
-> git clone https://github.com/agoel00/IrisPredictorWebApp
-
-This downloads the repository from Github to your local machine
-
-> cd IrisPredictorWebApp
-
-Change your current working directory to this
-
-> pip install requirements.txt
-
-Install the required libraries
-
 > python app.py
 
 ## Docker commands
 docker image build -t iris:app .
 
-docker container run -p 5000:5000 iris:app
+docker run -p 5000:5000 iris:app
 
 docker system prune
 
