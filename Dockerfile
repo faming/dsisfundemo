@@ -1,4 +1,4 @@
-FROM python
+FROM python:3.8-slim
 WORKDIR /iris
 COPY . ./
 RUN pip install -r requirements.txt
